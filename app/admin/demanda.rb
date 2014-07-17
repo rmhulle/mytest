@@ -1,4 +1,5 @@
 ActiveAdmin.register Demanda do
+  permit_params :nane
 
   
   # See permitted parameters documentation:
