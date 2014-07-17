@@ -1,4 +1,5 @@
 ActiveAdmin.register Estado do
+  permit_params :name, :exibition
 
   
   # See permitted parameters documentation:
