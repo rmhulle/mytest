@@ -1,4 +1,5 @@
 ActiveAdmin.register Cidade do
+  permit_params :value, :name
 
   
   # See permitted parameters documentation:
